@@ -16,7 +16,7 @@
         <form>
             <div class="mb-3">
                 <label for="nome" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                <input type="text" class="form-control" id="nome" required placeholder="Digite seu nome" minlength="2" maxlength="60">
             </div>
             <div class="form-group mb-3">
                 <label for="email" class="form-label">Email</label>
@@ -24,17 +24,17 @@
                     <div class="input-group-text">
                         <i class="bi bi-envelope"></i>
                     </div>
-                    <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                    <input type="email" class="form-control" id="email" required placeholder="Digite seu email" minlength="5" maxlength="100">
                 </div>
             </div>                      
             <div class="d-flex justify-content-between">
                 <div class="mb-3">
                     <label for="senha" class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                    <input type="password" class="form-control" id="senha" required placeholder="Digite sua senha" minlength="5" maxlength="60">
                 </div>
                 <div class="mb-3">
                     <label for="confirmarSenha" class="form-label">Confirmar senha</label>
-                    <input type="password" class="form-control" id="confirmarSenha" placeholder="Confirme sua senha">
+                    <input type="password" class="form-control" id="confirmarSenha" required placeholder="Confirme sua senha" minlength="5" maxlength="60">
                 </div>
             </div>
             <div class="row g-2 mb-3">
@@ -44,12 +44,12 @@
                         <div class="input-group-text">
                             <i class="bi bi-geo-alt"></i>
                         </div>
-                        <input type="text" class="form-control" id="cidade" placeholder="Digite sua cidade">
+                        <input type="text" class="form-control" id="cidade" required placeholder="Digite sua cidade" minlength="2" maxlength="30">
                     </div>
                 </div>
                 <div class="col-sm">
                     <label for="estado" class="form-label">Estado</label>
-                    <input type="text" class="form-control" id="estado" placeholder="Digite seu estado">
+                    <input type="text" class="form-control" id="estado" required placeholder="Digite seu estado" minlength="2" maxlength="2">
                 </div>
             </div>
             
