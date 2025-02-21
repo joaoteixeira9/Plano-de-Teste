@@ -15,7 +15,7 @@
 
 ### Senha
 - máximo 60 caracteres
-- mínimo 5 caracteres
+- mínimo 8 caracteres
 - obrigatório letra maiúscula e um caractere especial
 - campo obrigatório
 
